@@ -88,3 +88,5 @@ storiesOf("Button", module)
   .add("Add to Favorites", () => <Button type="cart-and-favorites" />)
   .add("Cart", () => <Button type="cart-icon" />)
   .add("Heart", () => <Button type="heart-icon" />);
+
+storiesOf("Forms", module);
